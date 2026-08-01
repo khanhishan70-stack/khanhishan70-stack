@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="96" viewBox="0 0 800 96">
+  <defs>
+    <linearGradient id="wv" x1="0" y1="0" x2="800" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00E5FF" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#00E5FF"/>
+      <stop offset="1" stop-color="#00E5FF" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <g opacity="0.4">
+    <animateTransform attributeName="transform" type="translate" from="0 0" to="-400 0" dur="7s" repeatCount="indefinite"/>
+    <path d="M0 62 Q 50 42 100 62 T 200 62 T 300 62 T 400 62 T 500 62 T 600 62 T 700 62 T 800 62 V 96 H 0 Z" fill="url(#wv)"/>
+  </g>
+  <g opacity="0.55">
+    <animateTransform attributeName="transform" type="translate" from="-200 0" to="-600 0" dur="7s" repeatCount="indefinite"/>
+    <path d="M0 72 Q 50 54 100 72 T 200 72 T 300 72 T 400 72 T 500 72 T 600 72 T 700 72 T 800 72 V 96 H 0 Z" fill="url(#wv)"/>
+  </g>
+  <g opacity="0.7">
+    <animateTransform attributeName="transform" type="translate" from="0 0" to="-400 0" dur="5s" repeatCount="indefinite"/>
+    <path d="M0 82 Q 50 68 100 82 T 200 82 T 300 82 T 400 82 T 500 82 T 600 82 T 700 82 T 800 82 V 96 H 0 Z" fill="url(#wv)"/>
+  </g>
+
+  <g>
+    <circle cx="400" cy="34" r="5" fill="#00E5FF">
+      <animate attributeName="opacity" values="1;0.25;1" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="400" cy="34" r="5" fill="none" stroke="#00E5FF" stroke-width="1">
+      <animate attributeName="r" values="5;16" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.8;0" dur="2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <text x="400" y="30" text-anchor="middle" font-family="Consolas,monospace" font-size="11" letter-spacing="7" fill="#94A3B8">SYSTEM ONLINE</text>
+  <text x="400" y="96" text-anchor="middle" font-family="Consolas,monospace" font-size="9" letter-spacing="3" fill="#475569">DEVELOPER_OS v2.6.0</text>
+</svg>
