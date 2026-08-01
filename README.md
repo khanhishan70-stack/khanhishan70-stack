@@ -580,3 +580,11 @@
   <p style="margin:0 0 6px;font-family:'Fira Code',Consolas,monospace;font-size:11px;color:#475569;">crafted with precision · powered by curiosity</p>
   <a href="#top" style="display:inline-block;margin-top:6px;font-family:'Fira Code',Consolas,monospace;font-size:11px;letter-spacing:2px;color:#00E5FF;text-decoration:none;">&#9650; back to top</a>
 </div>
+
+<!-- ============ 11 · PORTRAIT ============ -->
+<div align="center" style="max-width:860px;margin:48px auto 0;padding-bottom:32px;">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/khanhishan70-stack/khanhishan70-stack/main/assets/hero/portrait-dark.svg"/>
+    <img src="https://raw.githubusercontent.com/khanhishan70-stack/khanhishan70-stack/main/assets/hero/portrait-light.svg" width="412" height="420" alt="Portrait" style="max-width:100%;height:auto;border-radius:24px;display:block;margin:0 auto;"/>
+  </picture>
+</div>
