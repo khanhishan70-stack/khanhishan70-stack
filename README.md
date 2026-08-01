@@ -1,52 +1,9 @@
-<div id="top" align="center" style="background-color:#02040A;background-image:radial-gradient(1100px 520px at 50% -10%,rgba(0,229,255,0.10),transparent 60%),radial-gradient(760px 420px at 92% 108%,rgba(139,92,246,0.10),transparent 60%),linear-gradient(180deg,#02040A 0%,#030818 100%);border-radius:18px;overflow:hidden;padding:48px 12px 0;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Inter,Helvetica,Arial,sans-serif;color:#E2E8F0;">
+<div id="top" align="center" style="max-width:1180px;margin:0 auto 8px;">
 
-<!-- ============ 00 · HERO ============ -->
-<div style="max-width:860px;margin:0 auto;padding:0 8px;">
-
-  <div style="display:flex;align-items:center;justify-content:center;gap:10px;margin-bottom:26px;">
-    <img src="assets/logo.svg" width="34" height="34" alt="DEVELOPER_OS"/>
-    <span style="font-family:'Fira Code',Consolas,monospace;font-size:11px;letter-spacing:5px;color:#64748B;">DEVELOPER_OS <span style="color:#00E5FF;">/</span> PROFILE.NEURAL</span>
-  </div>
-
-  <img src="assets/profile.svg" width="118" height="118" alt="Profile" style="border-radius:44px;border:1px solid rgba(0,229,255,0.5);box-shadow:0 0 0 6px rgba(0,229,255,0.05),0 0 46px rgba(0,229,255,0.35);"/>
-
-  <h1 style="margin:24px 0 6px;font-size:46px;font-weight:800;letter-spacing:2px;color:#F8FAFC;text-shadow:0 0 20px rgba(0,229,255,0.5),0 0 50px rgba(59,130,246,0.35);">Hishan Khan</h1>
-
-  <p style="font-family:'Fira Code',Consolas,monospace;font-size:12px;letter-spacing:6px;color:#38BDF8;margin:0 0 8px;text-transform:uppercase;">&gt; boot sequence: DEVELOPER_OS build 2.6.0 · neural link established</p>
-
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&amp;size=21&amp;duration=3200&amp;pause=900&amp;color=00E5FF&amp;center=true&amp;vCenter=true&amp;width=680&amp;lines=AI+%2B+Cloud+Engineer;Building+with+Vertex+AI+%26+Gemini;From+neural+networks+to+production+systems" alt="Typing tagline" style="margin:14px 0 10px;max-width:100%;height:auto;"/>
-
-  <p style="font-family:'Fira Code',Consolas,monospace;font-size:13px;color:#64748B;margin:6px 0 28px;">
-    <span style="color:#00E5FF;">ai_engineer</span><span style="color:#475569;">@</span><span style="color:#8B5CF6;">dev-os</span><span style="color:#475569;">:~$</span> <span style="color:#38BDF8;">let&#39;s build the intelligent layer of the internet</span>
-  </p>
-
-  <div style="display:flex;flex-wrap:wrap;justify-content:center;gap:10px;margin-bottom:40px;">
-    <span style="display:inline-flex;align-items:center;gap:8px;padding:7px 16px;border-radius:99px;background-color:rgba(0,229,255,0.07);border:1px solid rgba(0,229,255,0.30);font-size:13px;color:#B8EFFF;">
-      <svg width="9" height="9" viewBox="0 0 10 10" style="flex:0 0 auto;"><circle cx="5" cy="5" r="3" fill="#00E5FF"/><circle cx="5" cy="5" r="3" fill="none" stroke="#00E5FF" stroke-width="1"><animate attributeName="r" values="3;8" dur="1.8s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.7;0" dur="1.8s" repeatCount="indefinite"/></circle></svg>
-      Status: <b>ONLINE</b>
-    </span>
-    <span style="padding:7px 16px;border-radius:99px;background-color:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.10);font-size:13px;color:#CBD5E1;">Learning Vertex AI</span>
-    <span style="padding:7px 16px;border-radius:99px;background-color:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.10);font-size:13px;color:#CBD5E1;">Open to collabs</span>
-    <span style="padding:7px 16px;border-radius:99px;background-color:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.10);font-size:13px;color:#CBD5E1;">India</span>
-    <span style="padding:7px 16px;border-radius:99px;background-color:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.10);font-size:13px;color:#CBD5E1;">Building in public</span>
-  </div>
-
-  <div align="left" style="max-width:680px;margin:0 auto 12px;background-color:rgba(3,8,20,0.88);border:1px solid rgba(0,229,255,0.16);border-radius:14px;box-shadow:0 24px 60px rgba(0,0,0,0.55),0 0 30px rgba(0,229,255,0.06);overflow:hidden;backdrop-filter:blur(10px);">
-    <div style="display:flex;align-items:center;gap:8px;padding:12px 16px;border-bottom:1px solid rgba(255,255,255,0.05);">
-      <span style="width:12px;height:12px;border-radius:50%;background:#FF5F57;"></span>
-      <span style="width:12px;height:12px;border-radius:50%;background:#FEBC2E;"></span>
-      <span style="width:12px;height:12px;border-radius:50%;background:#28C840;"></span>
-      <span style="font-family:'Fira Code',Consolas,monospace;font-size:11px;color:#475569;margin-left:8px;letter-spacing:1px;">developer-os — zsh</span>
-    </div>
-    <div style="padding:18px 20px 24px;font-family:'Fira Code',Consolas,monospace;font-size:12.5px;line-height:2;color:#CBD5E1;">
-      <span style="color:#00E5FF;">developer</span><span style="color:#475569;">@</span><span style="color:#8B5CF6;">dev-os</span><span style="color:#475569;">:~$</span> whoami<br/>
-      <span style="color:#E2E8F0;">&nbsp;&nbsp;AI + Cloud Engineer — crafting intelligent systems on Google Cloud</span><br/>
-      <span style="color:#00E5FF;">developer</span><span style="color:#475569;">@</span><span style="color:#8B5CF6;">dev-os</span><span style="color:#475569;">:~$</span> stack --current<br/>
-      <span style="color:#E2E8F0;">&nbsp;&nbsp;[&quot;Python&quot;, &quot;C&quot;, &quot;React&quot;, &quot;Next.js&quot;, &quot;Vertex AI&quot;, &quot;Gemini API&quot;, &quot;Firebase&quot;]</span><br/>
-      <span style="color:#00E5FF;">developer</span><span style="color:#475569;">@</span><span style="color:#8B5CF6;">dev-os</span><span style="color:#475569;">:~$</span> status<br/>
-      <span style="color:#22C55E;">&nbsp;&nbsp;&#9679; boot complete — all systems nominal</span> <span style="color:#00E5FF;">&#9608;</span>
-    </div>
-  </div>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/khanhishan70-stack/khanhishan70-stack/main/assets/hero/dark.svg"/>
+    <img src="https://raw.githubusercontent.com/khanhishan70-stack/khanhishan70-stack/main/assets/hero/light.svg" width="1180" height="610" alt="Hishan Khan — AI + Cloud Engineer" style="max-width:100%;height:auto;border-radius:18px;display:block;margin:0 auto;"/>
+  </picture>
 
 </div>
 
@@ -376,7 +333,7 @@
 <img src="assets/animations/divider.svg" width="800" height="8" alt="" style="max-width:100%;height:auto;margin:44px auto 0;display:block;"/>
 
 <!-- ============ 06 · GITHUB ANALYTICS ============ -->
-<div align="left" style="max-width:860px;margin:60px auto 20px;display:flex;align-items:center;gap:14px;">
+<div id="analytics" align="left" style="max-width:860px;margin:60px auto 20px;display:flex;align-items:center;gap:14px;">
   <span style="flex:0 0 auto;width:36px;height:4px;border-radius:99px;background-image:linear-gradient(90deg,#00E5FF,#3B82F6);box-shadow:0 0 14px rgba(0,229,255,0.7);"></span>
   <h2 style="margin:0;font-size:18px;font-weight:700;letter-spacing:7px;color:#F1F5F9;text-transform:uppercase;">GitHub Analytics</h2>
   <span style="flex:0 0 auto;font-family:'Fira Code',Consolas,monospace;font-size:11px;color:#00E5FF;background-color:rgba(0,229,255,0.08);border:1px solid rgba(0,229,255,0.25);padding:3px 10px;border-radius:99px;">06</span>
@@ -622,6 +579,4 @@
   <p style="margin:18px 0 8px;font-size:12px;color:#64748B;letter-spacing:1px;">© 2026 Hishan Khan — DEVELOPER_OS v2.6.0</p>
   <p style="margin:0 0 6px;font-family:'Fira Code',Consolas,monospace;font-size:11px;color:#475569;">crafted with precision · powered by curiosity</p>
   <a href="#top" style="display:inline-block;margin-top:6px;font-family:'Fira Code',Consolas,monospace;font-size:11px;letter-spacing:2px;color:#00E5FF;text-decoration:none;">&#9650; back to top</a>
-</div>
-
 </div>

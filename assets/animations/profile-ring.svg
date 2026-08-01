@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="136" height="136" viewBox="0 0 136 136">
+  <g transform="translate(68 68)">
+    <circle r="64" fill="none" stroke="rgba(0,229,255,0.13)" stroke-width="2"/>
+    <circle r="64" fill="none" stroke="#00E5FF" stroke-width="1.6" stroke-dasharray="6 12" opacity="0.65">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="16s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="59" fill="none" stroke="rgba(139,92,246,0.45)" stroke-width="1.2" stroke-dasharray="2 9" opacity="0.5">
+      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="22s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="54" fill="none" stroke="#00E5FF" stroke-width="1" opacity="0">
+      <animate attributeName="r" values="54;64" dur="2.2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.5;0" dur="2.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="3" fill="#00E5FF" opacity="0.9">
+      <animate attributeName="opacity" values="0.9;0.2;0.9" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+</svg>
