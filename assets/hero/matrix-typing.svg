@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="110" viewBox="0 0 900 110" role="img" aria-label="System status: INITIALIZING SESSION... then ACCESS GRANTED...">
+  <defs>
+    <filter id="mglow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect x="4" y="4" width="892" height="102" rx="14" fill="#050505" stroke="#00FF41" stroke-opacity="0.5" stroke-width="1.5"/>
+  <rect x="16" y="18" width="10" height="10" rx="5" fill="#FF5F57"/>
+  <rect x="32" y="18" width="10" height="10" rx="5" fill="#FEBC2E"/>
+  <rect x="48" y="18" width="10" height="10" rx="5" fill="#28C840"/>
+  <text x="76" y="27" font-family="'Fira Code',Consolas,monospace" font-size="13" fill="#00FF41" opacity="0.85">root@developer:~ — zsh</text>
+  <g font-family="'Fira Code',Consolas,monospace" font-size="26" font-weight="600" fill="#00FF41">
+    <mask id="tmask">
+      <rect x="40" y="34" width="0" height="34" fill="#fff">
+        <animate attributeName="width" values="0;0;302.4;302.4;0;0" keyTimes="0;0;0.160714;0.375;0.5;1" dur="5.6s" repeatCount="indefinite" calcMode="spline" keySplines="0.25 0 0.75 1;0.25 0 0.75 1;0.25 0 0.75 1;0.25 0 0.75 1;0.25 0 0.75 1"/>
+      </rect>
+      <rect x="40" y="34" width="0" height="34" fill="#fff">
+        <animate attributeName="width" values="0;0;230.4;230.4;0;0" keyTimes="0;0.5;0.660714;0.875;1;1" dur="5.6s" repeatCount="indefinite" calcMode="spline" keySplines="0.25 0 0.75 1;0.25 0 0.75 1;0.25 0 0.75 1;0.25 0 0.75 1;0.25 0 0.75 1"/>
+      </rect>
+    </mask>
+    <g mask="url(#tmask)" filter="url(#mglow)">
+      <text x="40" y="68">INITIALIZING SESSION...<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0;0.160714;0.375;0.5;1" dur="5.6s" repeatCount="indefinite"/></text>
+      <text x="40" y="68" opacity="0">ACCESS GRANTED...<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.5;0.660714;0.875;1;1" dur="5.6s" repeatCount="indefinite"/></text>
+    </g>
+  </g>
+  <rect x="40" y="42" width="14" height="27" rx="2" fill="#00FF41">
+    <animate attributeName="x" values="40;40;342.4;342.4;40;40" keyTimes="0;0;0.160714;0.375;0.5;1" dur="5.6s" repeatCount="indefinite" calcMode="spline" keySplines="0.25 0 0.75 1;0.25 0 0.75 1;0.25 0 0.75 1;0.25 0 0.75 1;0.25 0 0.75 1"/>
+    <animate attributeName="opacity" values="1;0;1" keyTimes="0;0.5;1" dur="1.05s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="40" y="42" width="14" height="27" rx="2" fill="#00FF41">
+    <animate attributeName="x" values="40;40;270.4;270.4;40;40" keyTimes="0;0.5;0.660714;0.875;1;1" dur="5.6s" repeatCount="indefinite" calcMode="spline" keySplines="0.25 0 0.75 1;0.25 0 0.75 1;0.25 0 0.75 1;0.25 0 0.75 1;0.25 0 0.75 1"/>
+    <animate attributeName="opacity" values="1;0;1" keyTimes="0;0.5;1" dur="1.05s" repeatCount="indefinite"/>
+  </rect>
+</svg>
