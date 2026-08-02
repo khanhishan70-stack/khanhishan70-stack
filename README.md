@@ -19,7 +19,7 @@
 
 <table align="center" cellspacing="0" cellpadding="0" style="max-width:860px;width:100%;border-collapse:separate;border-spacing:12px;">
   <tr>
-    <td style="width:56%;vertical-align:top;background-color:rgba(255,255,255,0.02);border:1px solid rgba(255,255,255,0.06);border-radius:16px;padding:24px;text-align:left;">
+    <td style="width:100%;vertical-align:top;background-color:rgba(255,255,255,0.02);border:1px solid rgba(255,255,255,0.06);border-radius:16px;padding:24px;text-align:left;">
       <p style="font-family:'Fira Code',Consolas,monospace;font-size:11px;letter-spacing:3px;color:#00E5FF;margin:0 0 10px;"># PROFILE.SELF</p>
       <p style="margin:0 0 12px;font-size:14px;line-height:1.8;color:#CBD5E1;">Hey, I&#39;m <b style="color:#F8FAFC;">Hishan Khan</b> — an AI + Cloud Engineer navigating the frontier where large language models meet production infrastructure.</p>
       <p style="margin:0 0 16px;font-size:14px;line-height:1.8;color:#94A3B8;">I believe software should feel like intelligence — fast, calm, and alive. I&#39;m currently deep in the Google Cloud universe, wiring up <span style="color:#00E5FF;">Vertex AI</span>, <span style="color:#00E5FF;">Gemini</span>, and <span style="color:#00E5FF;">Cloud Run</span> into things that think.</p>
@@ -31,17 +31,8 @@
         <span style="padding:5px 13px;border-radius:99px;background-color:rgba(139,92,246,0.08);border:1px solid rgba(139,92,246,0.30);font-size:12px;color:#C4B5FD;">Next.js</span>
       </div>
     </td>
-    <td style="width:44%;vertical-align:top;background-color:rgba(255,255,255,0.02);border:1px solid rgba(255,255,255,0.06);border-radius:16px;padding:24px;text-align:left;font-family:'Fira Code',Consolas,monospace;font-size:12.5px;line-height:2.1;">
-      <span style="color:#8B5CF6;">const</span> <span style="color:#00E5FF;">engineer</span> <span style="color:#64748B;">=</span> <span style="color:#E2E8F0;">{</span><br/>
-      &nbsp;&nbsp;<span style="color:#38BDF8;">name</span><span style="color:#64748B;">:</span> <span style="color:#94A3B8;">&quot;Hishan Khan&quot;</span>,<br/>
-      &nbsp;&nbsp;<span style="color:#38BDF8;">role</span><span style="color:#64748B;">:</span> <span style="color:#94A3B8;">&quot;AI + Cloud Engineer&quot;</span>,<br/>
-      &nbsp;&nbsp;<span style="color:#38BDF8;">status</span><span style="color:#64748B;">:</span> <span style="color:#94A3B8;">&quot;actively learning&quot;</span>,<br/>
-      &nbsp;&nbsp;<span style="color:#38BDF8;">focus</span><span style="color:#64748B;">:</span> <span style="color:#94A3B8;">&quot;Vertex AI · Gemini · GenAI&quot;</span>,<br/>
-      &nbsp;&nbsp;<span style="color:#38BDF8;">openTo</span><span style="color:#64748B;">:</span> <span style="color:#94A3B8;">[&quot;collabs&quot;,&quot;hackathons&quot;]</span>,<br/>
-      &nbsp;&nbsp;<span style="color:#38BDF8;">learning</span><span style="color:#64748B;">:</span> <span style="color:#94A3B8;">[&quot;React&quot;,&quot;Next.js&quot;,&quot;GCP&quot;]</span>,<br/>
-      &nbsp;&nbsp;<span style="color:#38BDF8;">base</span><span style="color:#64748B;">:</span> <span style="color:#94A3B8;">&quot;India&quot;</span><br/>
-      <span style="color:#E2E8F0;">}</span>
-    </td>
+  </tr>
+</table>
   </tr>
 </table>
 
