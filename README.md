@@ -1,7 +1,10 @@
 <div align="center">
 
-<!-- ============ MATRIX HEADER ============ -->
-<img src="assets/hero/matrix-typing.svg" width="900" height="110" alt="terminal status" style="max-width:100%;height:auto;border-radius:14px;display:block;margin:0 auto;"/>
+<!-- ============ HERO ============ -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/khanhishan70-stack/khanhishan70-stack/main/assets/hero/dark.svg"/>
+  <img src="https://raw.githubusercontent.com/khanhishan70-stack/khanhishan70-stack/main/assets/hero/light.svg" width="1180" height="610" alt="Hishan Khan — Developer OS" style="max-width:100%;height:auto;border-radius:18px;display:block;margin:0 auto;"/>
+</picture>
 
 <br/>
 
