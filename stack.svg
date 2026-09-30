@@ -1,0 +1,382 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 620" width="1200" height="620" role="img" aria-label="Tech stack orbits and chip grid">
+  <title>Stack</title>
+  <defs>
+    <linearGradient id="stSurf" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#12141f"/><stop offset="1" stop-color="#0b0c13"/>
+    </linearGradient>
+    <linearGradient id="stHair" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0.55"/>
+      <stop offset="0.5" stop-color="#a78bfa" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#f472b6" stop-opacity="0.55"/>
+    </linearGradient>
+    <radialGradient id="stCore" cx="0.42" cy="0.36" r="0.72">
+      <stop offset="0" stop-color="#ffffff"/><stop offset="0.28" stop-color="#a5f3fc"/>
+      <stop offset="0.62" stop-color="#a78bfa"/><stop offset="1" stop-color="#f472b6"/>
+    </radialGradient>
+    <radialGradient id="stAura" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#a78bfa" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#a78bfa" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="stDots" width="14" height="14" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#ffffff" fill-opacity="0.045"/>
+    </pattern>
+    <clipPath id="stCardL"><rect x="0" y="0" width="620" height="620" rx="26"/></clipPath>
+    <clipPath id="stCardR"><rect x="640" y="0" width="560" height="620" rx="26"/></clipPath>
+    <filter id="stGlow" x="-70%" y="-70%" width="240%" height="240%">
+      <feGaussianBlur stdDeviation="7" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    .st-mono { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }
+    .st-sans { font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .st-in { animation: stIn .8s cubic-bezier(.22,1,.36,1) both; transform-box: fill-box; }
+    .a1{animation-delay:.05s}.a2{animation-delay:.14s}.a3{animation-delay:.23s}
+    .a4{animation-delay:.32s}.a5{animation-delay:.41s}.a6{animation-delay:.50s}
+    .a7{animation-delay:.59s}.a8{animation-delay:.68s}.a9{animation-delay:.77s}
+    .a10{animation-delay:.86s}.a11{animation-delay:.95s}.a12{animation-delay:1.04s}
+    .a13{animation-delay:1.13s}.a14{animation-delay:1.22s}
+    @keyframes stIn { from { opacity:0; transform: translateY(20px) } to { opacity:1; transform: none } }
+    .st-core-pulse { animation: stPulse 2.6s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+    @keyframes stPulse { 0%,100% { transform: scale(.82); opacity:.18 } 50% { transform: scale(1.14); opacity:.5 } }
+    .st-sweep { animation: stSweep 7s linear infinite; transform-box: view-box; transform-origin: 300px 336px; }
+    @keyframes stSweep { from { transform: rotate(0deg) } to { transform: rotate(360deg) } }
+    .st-chip { animation: stChipGlow 4.6s ease-in-out infinite; }
+    @keyframes stChipGlow {
+      0%,72%,100% { stroke-opacity:.14 }
+      80%         { stroke-opacity:1 }
+      88%         { stroke-opacity:.14 }
+    }
+    .st-bar { animation: stBar .9s cubic-bezier(.22,1,.36,1) both; transform-box: fill-box; transform-origin: left center; }
+    @keyframes stBar { from { transform: scaleX(0) } to { transform: scaleX(1) } }
+    .st-url { animation: stUrl 5.5s ease-in-out infinite; }
+    @keyframes stUrl { 0%,100%{opacity:.55} 50%{opacity:1} }
+  </style>
+
+  <!-- ============ LEFT CARD : browser window + orbits ============ -->
+  <g clip-path="url(#stCardL)">
+    <rect width="620" height="620" fill="url(#stSurf)"/>
+    <rect width="620" height="620" fill="url(#stDots)"/>
+    <ellipse cx="300" cy="330" rx="330" ry="300" fill="url(#stAura)" opacity="0.55"/>
+    <rect x="0.5" y="0.5" width="619" height="619" rx="26" fill="none" stroke="url(#stHair)" stroke-width="1.5"/>
+
+    <!-- browser chrome -->
+    <g>
+      <rect x="1" y="1" width="618" height="52" fill="#ffffff" fill-opacity="0.035"/>
+      <line x1="0" y1="53" x2="620" y2="53" stroke="#ffffff" stroke-opacity="0.08"/>
+      <circle cx="28" cy="27" r="5" fill="#ff5f57"/><circle cx="46" cy="27" r="5" fill="#febc2e"/><circle cx="64" cy="27" r="5" fill="#28c840"/>
+      <rect x="92" y="14" width="500" height="27" rx="13" fill="#0a0b12" stroke="#ffffff" stroke-opacity="0.10"/>
+      <g class="st-url" opacity="0.8">
+        <path d="M112 21.5v9a4.2 4.2 0 0 0 4.2 4.2h1.6" fill="none" stroke="#22d3ee" stroke-width="1.6" stroke-linecap="round"/>
+        <rect x="106.5" y="21.5" width="8.5" height="9" rx="2" fill="none" stroke="#22d3ee" stroke-width="1.6"/>
+        <circle cx="110.3" cy="26" r="1" fill="#22d3ee"/>
+      </g>
+      <text x="128" y="33" class="st-mono" font-size="13.5" fill="#8b93b0">https://khanhishan70-stack.github.io</text>
+      <circle cx="576" cy="27" r="2.6" fill="#22d3ee" opacity="0.7"/>
+      <rect x="112" y="46" width="120" height="2.5" rx="1.25" fill="url(#stHair)" class="st-bar a2" style="transform-origin:112px 47px"/>
+    </g>
+
+    <!-- orbit rings -->
+    <g fill="none" stroke="#ffffff" stroke-opacity="0.13" stroke-width="1.2" stroke-dasharray="3 7">
+      <path d="M 520.8 255.6 a 235 78 -20 1 0 -441.6 160.8 a 235 78 -20 1 0 441.6 -160.8"/>
+      <path d="M 512.9 365.9 a 215 92 8 1 0 -425.8 -59.8 a 215 92 8 1 0 425.8 59.8"/>
+      <path d="M 459.2 443.4 a 192 62 34 1 0 -318.4 -214.8 a 192 62 34 1 0 318.4 214.8"/>
+    </g>
+
+    <!-- rotating aura sweep -->
+    <g class="st-sweep">
+      <ellipse cx="300" cy="336" rx="262" ry="96" fill="none" stroke="url(#stHair)" stroke-width="2.2" stroke-opacity="0.7"
+               stroke-dasharray="90 1540" transform="rotate(-20 300 336)" stroke-linecap="round"/>
+    </g>
+
+    <!-- core -->
+    <g class="st-in a3">
+      <circle class="st-core-pulse" cx="300" cy="336" r="58" fill="url(#stAura)"/>
+      <circle class="st-core-pulse" cx="300" cy="336" r="58" fill="none" stroke="#a78bfa" stroke-width="1.6" style="animation-delay:.9s"/>
+      <circle cx="300" cy="336" r="42" fill="url(#stCore)" filter="url(#stGlow)"/>
+      <circle cx="300" cy="336" r="42" fill="none" stroke="#ffffff" stroke-opacity="0.55" stroke-width="1.4"/>
+      <path d="M291 330l9-5 9 5v11l-9 5-9-5z" fill="#0d0e16" fill-opacity="0.72"/>
+      <path d="M291 330l9 5 9-5M300 335v11" stroke="#a5f3fc" stroke-width="1.6" fill="none" stroke-linejoin="round"/>
+    </g>
+
+    <!-- ===== ORBIT 1 (outer) ===== -->
+    <g>
+      <!-- Python -->
+      <g>
+        <animateMotion dur="22s" begin="0s" repeatCount="indefinite" rotate="0"
+          path="M 520.8 255.6 a 235 78 -20 1 0 -441.6 160.8 a 235 78 -20 1 0 441.6 -160.8"/>
+        <g transform="translate(-19,-19)">
+          <rect width="38" height="38" rx="11" fill="#3776ab" fill-opacity="0.16" stroke="#4b8bbe" stroke-width="1.5"/>
+          <path d="M19 8.5c4.5 0 4.2 2.4 4.2 2.4v3.3h-4.4" fill="none" stroke="#ffd343" stroke-width="1.7" stroke-linecap="round"/>
+          <path d="M19 29.5c-4.5 0-4.2-2.4-4.2-2.4v-3.3h4.4" fill="none" stroke="#4b8bbe" stroke-width="1.7" stroke-linecap="round"/>
+          <circle cx="20.6" cy="12.4" r="1.35" fill="#ffd343"/><circle cx="17.4" cy="25.6" r="1.35" fill="#4b8bbe"/>
+          <text x="19" y="23" text-anchor="middle" class="st-mono" font-size="8.5" font-weight="700" fill="#9ec9ee">Py</text>
+        </g>
+      </g>
+      <!-- JavaScript -->
+      <g>
+        <animateMotion dur="22s" begin="7.4s" repeatCount="indefinite" rotate="0"
+          path="M 520.8 255.6 a 235 78 -20 1 0 -441.6 160.8 a 235 78 -20 1 0 441.6 -160.8"/>
+        <g transform="translate(-19,-19)">
+          <rect width="38" height="38" rx="11" fill="#f7df1e" fill-opacity="0.16" stroke="#f7df1e" stroke-width="1.5"/>
+          <rect x="11" y="11" width="16" height="16" rx="2.5" fill="none" stroke="#fde047" stroke-width="1.7"/>
+          <text x="19" y="22.5" text-anchor="middle" class="st-mono" font-size="9" font-weight="700" fill="#fef08a">JS</text>
+        </g>
+      </g>
+      <!-- TypeScript -->
+      <g>
+        <animateMotion dur="22s" begin="14.8s" repeatCount="indefinite" rotate="0"
+          path="M 520.8 255.6 a 235 78 -20 1 0 -441.6 160.8 a 235 78 -20 1 0 441.6 -160.8"/>
+        <g transform="translate(-19,-19)">
+          <rect width="38" height="38" rx="11" fill="#3178c6" fill-opacity="0.18" stroke="#5ea9ea" stroke-width="1.5"/>
+          <rect x="10" y="10" width="18" height="18" rx="3" fill="none" stroke="#7cc6f5" stroke-width="1.6"/>
+          <text x="19" y="23" text-anchor="middle" class="st-mono" font-size="9" font-weight="700" fill="#eaf4ff">TS</text>
+        </g>
+      </g>
+    </g>
+
+    <!-- ===== ORBIT 2 (middle) : React + two moons ===== -->
+    <g>
+      <animateMotion dur="16s" begin="0s" repeatCount="indefinite" rotate="0"
+        path="M 512.9 365.9 a 215 92 8 1 0 -425.8 -59.8 a 215 92 8 1 0 425.8 59.8"/>
+      <!-- React tile -->
+      <g transform="translate(-21,-21)">
+        <rect width="42" height="42" rx="13" fill="#61dafb" fill-opacity="0.14" stroke="#61dafb" stroke-width="1.6" filter="url(#stGlow)"/>
+        <g fill="none" stroke="#61dafb" stroke-width="1.6">
+          <circle cx="21" cy="21" r="2.6" fill="#61dafb" stroke="none"/>
+          <ellipse cx="21" cy="21" rx="10" ry="4.1"/>
+          <ellipse cx="21" cy="21" rx="10" ry="4.1" transform="rotate(60 21 21)"/>
+          <ellipse cx="21" cy="21" rx="10" ry="4.1" transform="rotate(120 21 21)"/>
+        </g>
+      </g>
+      <!-- Moon 1 : TypeScript -->
+      <g>
+        <animateMotion dur="3.4s" begin="0s" repeatCount="indefinite" rotate="0" path="M0,-19 a19,19 0 1,0 0.1,0"/>
+        <g transform="translate(-8.5,-8.5)">
+          <rect width="17" height="17" rx="5" fill="#3178c6" fill-opacity="0.85" stroke="#5ea9ea" stroke-width="1"/>
+          <text x="8.5" y="12.2" text-anchor="middle" class="st-mono" font-size="9" font-weight="700" fill="#eaf4ff">TS</text>
+        </g>
+      </g>
+      <!-- Moon 2 : Flask -->
+      <g>
+        <animateMotion dur="3.4s" begin="-1.7s" repeatCount="indefinite" rotate="0" path="M0,-19 a19,19 0 1,0 0.1,0"/>
+        <g transform="translate(-8.5,-8.5)">
+          <rect width="17" height="17" rx="5" fill="#ffffff" fill-opacity="0.10" stroke="#ffffff" stroke-opacity="0.5" stroke-width="1"/>
+          <path d="M6 4.5h5v9H6z" fill="none" stroke="#e2e8f5" stroke-width="1.1" stroke-linejoin="round"/>
+          <path d="M11.5 4.5l2 1v2" fill="none" stroke="#e2e8f5" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+        </g>
+      </g>
+    </g>
+    <!-- React companions on orbit 2 -->
+    <g>
+      <g>
+        <animateMotion dur="16s" begin="5.4s" repeatCount="indefinite" rotate="0"
+          path="M 512.9 365.9 a 215 92 8 1 0 -425.8 -59.8 a 215 92 8 1 0 425.8 59.8"/>
+        <g transform="translate(-18,-18)">
+          <rect width="36" height="36" rx="10" fill="#38bdf8" fill-opacity="0.14" stroke="#38bdf8" stroke-width="1.5"/>
+          <path d="M9 20c2.2-4.4 4.4-4.4 6.6 0s4.4 4.4 6.6 0 4.4-4.4 4.4-4.4" fill="none" stroke="#7dd3fc" stroke-width="1.8" stroke-linecap="round"/>
+          <path d="M9 25c2.2-4.4 4.4-4.4 6.6 0s4.4 4.4 6.6 0" fill="none" stroke="#38bdf8" stroke-width="1.8" stroke-linecap="round"/>
+        </g>
+      </g>
+      <g>
+        <animateMotion dur="16s" begin="10.7s" repeatCount="indefinite" rotate="0"
+          path="M 512.9 365.9 a 215 92 8 1 0 -425.8 -59.8 a 215 92 8 1 0 425.8 59.8"/>
+        <g transform="translate(-18,-18)">
+          <rect width="36" height="36" rx="10" fill="#646cff" fill-opacity="0.16" stroke="#8b8fff" stroke-width="1.5"/>
+          <path d="M10 12l8 12 8-12z" fill="none" stroke="#b8baff" stroke-width="1.6" stroke-linejoin="round"/>
+          <path d="M12.6 18h10.8" stroke="#b8baff" stroke-width="1.4"/>
+        </g>
+      </g>
+    </g>
+
+    <!-- ===== ORBIT 3 (inner) ===== -->
+    <g>
+      <!-- Gemini -->
+      <g>
+        <animateMotion dur="27s" begin="0s" repeatCount="indefinite" rotate="0"
+          path="M 459.2 443.4 a 192 62 34 1 0 -318.4 -214.8 a 192 62 34 1 0 318.4 214.8"/>
+        <g transform="translate(-17,-17)">
+          <rect width="34" height="34" rx="10" fill="#8e75b2" fill-opacity="0.18" stroke="#a78bfa" stroke-width="1.5"/>
+          <path d="M17 8.5c-3.6 2.6-5.6 5.4-5.6 8.5 0 3.4 2.4 6 5.6 6s5.6-2.6 5.6-6c0-3.1-2-5.9-5.6-8.5z" fill="none" stroke="#c4b5fd" stroke-width="1.5" stroke-linejoin="round"/>
+        </g>
+      </g>
+      <!-- Groq -->
+      <g>
+        <animateMotion dur="27s" begin="6.8s" repeatCount="indefinite" rotate="0"
+          path="M 459.2 443.4 a 192 62 34 1 0 -318.4 -214.8 a 192 62 34 1 0 318.4 214.8"/>
+        <g transform="translate(-17,-17)">
+          <rect width="34" height="34" rx="10" fill="#f55036" fill-opacity="0.18" stroke="#ff8c6a" stroke-width="1.5"/>
+          <circle cx="14.5" cy="15" r="6" fill="none" stroke="#ffb59e" stroke-width="1.5"/>
+          <circle cx="21" cy="21" r="5" fill="none" stroke="#ffb59e" stroke-width="1.5"/>
+        </g>
+      </g>
+      <!-- Ollama -->
+      <g>
+        <animateMotion dur="27s" begin="13.6s" repeatCount="indefinite" rotate="0"
+          path="M 459.2 443.4 a 192 62 34 1 0 -318.4 -214.8 a 192 62 34 1 0 318.4 214.8"/>
+        <g transform="translate(-17,-17)">
+          <rect width="34" height="34" rx="10" fill="#e5e7eb" fill-opacity="0.14" stroke="#e5e7eb" stroke-width="1.5"/>
+          <path d="M10 25c0-4.4 3.4-8 7.5-8s7.5 3.6 7.5 8" fill="none" stroke="#f3f4f6" stroke-width="1.5" stroke-linecap="round"/>
+          <circle cx="12.5" cy="26.5" r="1.8" fill="#f3f4f6"/><circle cx="22.5" cy="26.5" r="1.8" fill="#f3f4f6"/>
+        </g>
+      </g>
+      <!-- Docker -->
+      <g>
+        <animateMotion dur="27s" begin="20.4s" repeatCount="indefinite" rotate="0"
+          path="M 459.2 443.4 a 192 62 34 1 0 -318.4 -214.8 a 192 62 34 1 0 318.4 214.8"/>
+        <g transform="translate(-17,-17)">
+          <rect width="34" height="34" rx="10" fill="#2496ed" fill-opacity="0.16" stroke="#4da3e8" stroke-width="1.5"/>
+          <rect x="10" y="12" width="13" height="12" rx="2" fill="none" stroke="#7cc6f5" stroke-width="1.5"/>
+          <path d="M10 18.5H8v5h5v-2M23 12h2v12h-5" fill="none" stroke="#7cc6f5" stroke-width="1.3" stroke-linejoin="round"/>
+        </g>
+      </g>
+    </g>
+
+    <text x="300" y="588" text-anchor="middle" class="st-mono" font-size="12" fill="#5b6382" letter-spacing="2">THREE ORBITS · ONE STACK</text>
+  </g>
+
+  <!-- ============ RIGHT CARD : chip grid ============ -->
+  <g clip-path="url(#stCardR)">
+    <rect x="640" width="560" height="620" fill="url(#stSurf)"/>
+    <rect x="640" width="560" height="620" fill="url(#stDots)"/>
+    <ellipse cx="1120" cy="600" rx="300" ry="240" fill="url(#stAura)" opacity="0.5"/>
+    <rect x="640.5" y="0.5" width="559" height="619" rx="26" fill="none" stroke="url(#stHair)" stroke-width="1.5"/>
+
+    <g class="st-in a4">
+      <text x="668" y="52" class="st-sans" font-size="26" font-weight="700" fill="#e8ecfb">The Toolkit</text>
+      <rect x="668" y="62" width="70" height="3" rx="1.5" fill="url(#stHair)" class="st-bar a5" style="transform-origin:668px 63px"/>
+      <text x="1172" y="52" text-anchor="end" class="st-mono" font-size="13" fill="#5b6382">groups / 4</text>
+    </g>
+
+    <!-- GROUP 1 : FRONTEND -->
+    <g class="st-in a6">
+      <text x="668" y="104" class="st-mono" font-size="12" letter-spacing="2.4" fill="#22d3ee">LANGUAGES</text>
+      <line x1="757" y1="100" x2="1172" y2="100" stroke="#ffffff" stroke-opacity="0.07"/>
+    </g>
+    <g class="st-in a7">
+      <rect x="668" y="118" width="160" height="46" rx="13" fill="#ffffff" fill-opacity="0.035"/>
+      <rect class="st-chip" x="668.5" y="118.5" width="159" height="45" rx="13" fill="none" stroke="#4b8bbe" style="animation-delay:0s"/>
+      <text x="682" y="148" class="st-mono" font-size="17" font-weight="700" fill="#9ec9ee">Py</text>
+      <text x="708" y="146" class="st-sans" font-size="14" fill="#e6ebf8">Python</text>
+    </g>
+    <g class="st-in a8">
+      <rect x="840" y="118" width="160" height="46" rx="13" fill="#ffffff" fill-opacity="0.035"/>
+      <rect class="st-chip" x="840.5" y="118.5" width="159" height="45" rx="13" fill="none" stroke="#f7df1e" style="animation-delay:.7s"/>
+      <rect x="860" y="130" width="14" height="14" rx="2.5" fill="none" stroke="#fde047" stroke-width="1.5"/>
+      <text x="888" y="146" class="st-sans" font-size="14" fill="#e6ebf8">JavaScript</text>
+    </g>
+    <g class="st-in a9">
+      <rect x="1012" y="118" width="160" height="46" rx="13" fill="#ffffff" fill-opacity="0.035"/>
+      <rect class="st-chip" x="1012.5" y="118.5" width="159" height="45" rx="13" fill="none" stroke="#38bdf8" style="animation-delay:1.4s"/>
+      <path d="M1039 130l-11 9 11 9 11-9z" fill="none" stroke="#7dd3fc" stroke-width="1.5" stroke-linejoin="round"/>
+      <text x="1058" y="146" class="st-sans" font-size="14" fill="#e6ebf8">C / C++</text>
+    </g>
+
+    <!-- GROUP 2 : FRONTEND -->
+    <g class="st-in a10">
+      <text x="668" y="206" class="st-mono" font-size="12" letter-spacing="2.4" fill="#a78bfa">FRONTEND</text>
+      <line x1="748" y1="202" x2="1172" y2="202" stroke="#ffffff" stroke-opacity="0.07"/>
+    </g>
+    <g class="st-in a11">
+      <rect x="668" y="220" width="160" height="46" rx="13" fill="#ffffff" fill-opacity="0.035"/>
+      <rect class="st-chip" x="668.5" y="220.5" width="159" height="45" rx="13" fill="none" stroke="#61dafb" style="animation-delay:2.1s"/>
+      <g transform="translate(682,231)" fill="none" stroke="#61dafb" stroke-width="1.3">
+        <circle cx="9" cy="9" r="2" fill="#61dafb" stroke="none"/>
+        <ellipse cx="9" cy="9" rx="8" ry="3.3"/>
+        <ellipse cx="9" cy="9" rx="8" ry="3.3" transform="rotate(60 9 9)"/>
+        <ellipse cx="9" cy="9" rx="8" ry="3.3" transform="rotate(120 9 9)"/>
+      </g>
+      <text x="712" y="248" class="st-sans" font-size="14" fill="#e6ebf8">React</text>
+    </g>
+    <g class="st-in a12">
+      <rect x="840" y="220" width="160" height="46" rx="13" fill="#ffffff" fill-opacity="0.035"/>
+      <rect class="st-chip" x="840.5" y="220.5" width="159" height="45" rx="13" fill="none" stroke="#38bdf8" style="animation-delay:2.8s"/>
+      <path d="M860 234h18M860 240h18M860 246h12" stroke="#7dd3fc" stroke-width="1.6" stroke-linecap="round"/>
+      <path d="M858 250l-2 3 4 1z" fill="#7dd3fc"/>
+      <text x="888" y="248" class="st-sans" font-size="14" fill="#e6ebf8">Tailwind</text>
+    </g>
+    <g class="st-in a13">
+      <rect x="1012" y="220" width="160" height="46" rx="13" fill="#ffffff" fill-opacity="0.035"/>
+      <rect class="st-chip" x="1012.5" y="220.5" width="159" height="45" rx="13" fill="none" stroke="#3178c6" style="animation-delay:3.5s"/>
+      <rect x="1031" y="230" width="15" height="15" rx="2.5" fill="none" stroke="#5ea9ea" stroke-width="1.5"/>
+      <text x="1038.5" y="242" text-anchor="middle" class="st-mono" font-size="8" font-weight="700" fill="#eaf4ff">TS</text>
+      <text x="1054" y="248" class="st-sans" font-size="14" fill="#e6ebf8">TypeScript</text>
+    </g>
+
+    <!-- GROUP 3 : AI / ML -->
+    <g class="st-in a14">
+      <text x="668" y="308" class="st-mono" font-size="12" letter-spacing="2.4" fill="#f472b6">AI / ML</text>
+      <line x1="726" y1="304" x2="1172" y2="304" stroke="#ffffff" stroke-opacity="0.07"/>
+    </g>
+    <g class="st-in" style="animation-delay:1.30s">
+      <rect x="668" y="322" width="160" height="46" rx="13" fill="#ffffff" fill-opacity="0.035"/>
+      <rect class="st-chip" x="668.5" y="322.5" width="159" height="45" rx="13" fill="none" stroke="#8e75b2" style="animation-delay:4.2s"/>
+      <path d="M689 332c-4 3-6 6-6 10 0 5 3 8 6 8s6-3 6-8c0-4-2-7-6-10z" fill="none" stroke="#c4b5fd" stroke-width="1.5" stroke-linejoin="round"/>
+      <text x="704" y="350" class="st-sans" font-size="14" fill="#e6ebf8">Gemini</text>
+    </g>
+    <g class="st-in" style="animation-delay:1.40s">
+      <rect x="840" y="322" width="160" height="46" rx="13" fill="#ffffff" fill-opacity="0.035"/>
+      <rect class="st-chip" x="840.5" y="322.5" width="159" height="45" rx="13" fill="none" stroke="#f55036" style="animation-delay:4.9s"/>
+      <circle cx="858" cy="340" r="7" fill="none" stroke="#ff9c85" stroke-width="1.6"/>
+      <circle cx="864" cy="348" r="6" fill="none" stroke="#ff9c85" stroke-width="1.6"/>
+      <text x="878" y="350" class="st-sans" font-size="14" fill="#e6ebf8">Groq</text>
+    </g>
+    <g class="st-in" style="animation-delay:1.50s">
+      <rect x="1012" y="322" width="160" height="46" rx="13" fill="#ffffff" fill-opacity="0.035"/>
+      <rect class="st-chip" x="1012.5" y="322.5" width="159" height="45" rx="13" fill="none" stroke="#e5e7eb" style="animation-delay:5.6s"/>
+      <path d="M1024 348c0-5 4-9 8-9s8 4 8 9" fill="none" stroke="#f3f4f6" stroke-width="1.6" stroke-linecap="round"/>
+      <circle cx="1026" cy="350" r="2" fill="#f3f4f6"/><circle cx="1038" cy="350" r="2" fill="#f3f4f6"/>
+      <text x="1048" y="350" class="st-sans" font-size="14" fill="#e6ebf8">Ollama</text>
+    </g>
+
+    <!-- GROUP 4 : BACKEND & TOOLS -->
+    <g class="st-in" style="animation-delay:1.60s">
+      <text x="668" y="410" class="st-mono" font-size="12" letter-spacing="2.4" fill="#22d3ee">BACKEND &amp; TOOLS</text>
+      <line x1="840" y1="406" x2="1172" y2="406" stroke="#ffffff" stroke-opacity="0.07"/>
+    </g>
+    <g class="st-in" style="animation-delay:1.70s">
+      <rect x="668" y="424" width="160" height="46" rx="13" fill="#ffffff" fill-opacity="0.035"/>
+      <rect class="st-chip" x="668.5" y="424.5" width="159" height="45" rx="13" fill="none" stroke="#339933" style="animation-delay:6.3s"/>
+      <path d="M697 435l10 12h-20z" fill="none" stroke="#7ee787" stroke-width="1.5" stroke-linejoin="round"/>
+      <path d="M697 440v7" stroke="#7ee787" stroke-width="1.5" stroke-linecap="round"/>
+      <text x="716" y="452" class="st-sans" font-size="14" fill="#e6ebf8">Node / Express</text>
+    </g>
+    <g class="st-in" style="animation-delay:1.80s">
+      <rect x="840" y="424" width="160" height="46" rx="13" fill="#ffffff" fill-opacity="0.035"/>
+      <rect class="st-chip" x="840.5" y="424.5" width="159" height="45" rx="13" fill="none" stroke="#4da3e8" style="animation-delay:7.0s"/>
+      <path d="M886 435l-10 8 10 8v-5.5l-5.5-3 5.5-3z" fill="#7cc6f5"/>
+      <text x="906" y="452" class="st-sans" font-size="14" fill="#e6ebf8">VS Code</text>
+    </g>
+    <g class="st-in" style="animation-delay:1.90s">
+      <rect x="1012" y="424" width="160" height="46" rx="13" fill="#ffffff" fill-opacity="0.035"/>
+      <rect class="st-chip" x="1012.5" y="424.5" width="159" height="45" rx="13" fill="none" stroke="#2496ed" style="animation-delay:7.7s"/>
+      <rect x="1024" y="437" width="15" height="14" rx="2" fill="none" stroke="#7cc6f5" stroke-width="1.5"/>
+      <path d="M1029 437v-3h6v6h-4M1024 442h-4v4h4" fill="none" stroke="#7cc6f5" stroke-width="1.3"/>
+      <text x="1048" y="452" class="st-sans" font-size="14" fill="#e6ebf8">Docker</text>
+    </g>
+
+    <!-- motto -->
+    <g class="st-in" style="animation-delay:2.0s">
+      <rect x="668" y="500" width="504" height="86" rx="16" fill="url(#stHair)" fill-opacity="0.07" stroke="url(#stHair)" stroke-opacity="0.28"/>
+      <text x="688" y="530" class="st-mono" font-size="12" letter-spacing="2" fill="#8b93b0">MY THREE RULES</text>
+      <g class="st-mono" font-size="15" fill="#e6ebf8">
+        <text x="688" y="556">01 · Work hard</text>
+        <text x="866" y="556">02 · Work smart</text>
+        <text x="1046" y="556">03 · Work fast</text>
+      </g>
+      <g>
+        <circle class="st-dot" cx="676" cy="551" r="4" fill="#22d3ee">
+          <animate attributeName="opacity" values="1;.25;1" dur="2.2s" begin="0s" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="854" cy="551" r="4" fill="#a78bfa">
+          <animate attributeName="opacity" values="1;.25;1" dur="2.2s" begin="0.4s" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="1034" cy="551" r="4" fill="#f472b6">
+          <animate attributeName="opacity" values="1;.25;1" dur="2.2s" begin="0.8s" repeatCount="indefinite"/>
+        </circle>
+      </g>
+      <text x="688" y="576" class="st-mono" font-size="11.5" fill="#5b6382">Mumbai, India · UTC+5:30 · open to collabs</text>
+    </g>
+  </g>
+</svg>
