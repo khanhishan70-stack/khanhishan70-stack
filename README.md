@@ -1,5 +1,8 @@
 <div align="center" style="background:#05070D;border:1px solid rgba(255,255,255,0.06);border-radius:24px;padding:42px 26px 34px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Inter,sans-serif;color:#E2E8F0;">
 
+<!-- ============ ANIMATED HERO CARD ============ -->
+<img src="https://raw.githubusercontent.com/khanhishan70-stack/khanhishan70-stack/main/hero.svg?v=1" width="100%" alt="Hishan Khan animated hero" style="max-width:100%;height:auto;border-radius:18px;display:block;margin:0 auto;"/>
+
 <!-- ============ HERO ============ -->
 <img src="https://komarev.com/ghpvc/?username=khanhishan70-stack&amp;style=flat-square&amp;color=22D3EE&amp;label=PROFILE+VIEWS&amp;abbreviated=true" alt="Profile views" style="border-radius:6px;"/>
 
@@ -27,6 +30,9 @@
 <a href="mailto:YOUR_EMAIL"><img src="https://img.shields.io/badge/Email-05070D?style=for-the-badge&logo=gmail&logoColor=22D3EE&labelColor=05070D" alt="Email"/></a>
 
 <br/>
+
+<!-- ============ ANIMATED ABOUT CARD ============ -->
+<img src="https://raw.githubusercontent.com/khanhishan70-stack/khanhishan70-stack/main/about-life.svg?v=1" width="100%" alt="About Hishan Khan" style="max-width:100%;height:auto;border-radius:18px;display:block;margin:34px auto 0;"/>
 
 <!-- ============ TERMINAL ============ -->
 <div style="margin-top:42px;">
@@ -180,6 +186,14 @@
 
 <br/>
 
+<!-- ============ ANIMATED STACK CARD ============ -->
+<img src="https://raw.githubusercontent.com/khanhishan70-stack/khanhishan70-stack/main/stack.svg?v=1" width="100%" alt="Tech stack orbits" style="max-width:100%;height:auto;border-radius:18px;display:block;margin:0 auto;"/>
+
+<br/>
+
+<!-- ============ ANIMATED ID DASHBOARD CARD ============ -->
+<img src="https://raw.githubusercontent.com/khanhishan70-stack/khanhishan70-stack/main/id-dashboard.svg?v=1" width="100%" alt="Developer ID dashboard" style="max-width:100%;height:auto;border-radius:18px;display:block;margin:0 auto;"/>
+
 <!-- ============ GITHUB ANALYTICS ============ -->
 <div style="margin-top:44px;max-width:900px;margin-left:auto;margin-right:auto;">
 
@@ -301,6 +315,9 @@
 </div>
 
 <br/>
+
+<!-- ============ ANIMATED CONNECT CARD ============ -->
+<img src="https://raw.githubusercontent.com/khanhishan70-stack/khanhishan70-stack/main/connect.svg?v=1" width="100%" alt="Let's connect" style="max-width:100%;height:auto;border-radius:18px;display:block;margin:0 auto;"/>
 
 <!-- ============ CONNECT ============ -->
 <div style="margin-top:44px;">
