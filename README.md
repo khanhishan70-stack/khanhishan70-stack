@@ -10,7 +10,7 @@
 <img src="https://raw.githubusercontent.com/khanhishan70-stack/khanhishan70-stack/main/stack.svg?v=3" width="100%" alt="Tech stack" />
 
 <!-- ============ ANIMATED ID DASHBOARD CARD ============ -->
-<img src="https://raw.githubusercontent.com/khanhishan70-stack/khanhishan70-stack/main/id-dashboard.svg?v=3" width="100%" alt="Developer dashboard" />
+<img src="https://raw.githubusercontent.com/khanhishan70-stack/khanhishan70-stack/main/id-card.svg?v=1" width="100%" alt="Developer dashboard" />
 
 </div>
 
