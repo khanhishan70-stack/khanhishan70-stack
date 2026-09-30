@@ -1,16 +1,16 @@
 <div align="center">
 
 <!-- ============ ANIMATED HERO CARD ============ -->
-<img src="https://raw.githubusercontent.com/khanhishan70-stack/khanhishan70-stack/main/hero.svg?v=2" width="100%" alt="Hishan Khan" />
+<img src="https://raw.githubusercontent.com/khanhishan70-stack/khanhishan70-stack/main/hero.svg?v=3" width="100%" alt="Hishan Khan" />
 
 <!-- ============ ANIMATED ABOUT CARD ============ -->
-<img src="https://raw.githubusercontent.com/khanhishan70-stack/khanhishan70-stack/main/about-life.svg?v=2" width="100%" alt="About Hishan Khan" />
+<img src="https://raw.githubusercontent.com/khanhishan70-stack/khanhishan70-stack/main/about-life.svg?v=3" width="100%" alt="About Hishan Khan" />
 
 <!-- ============ ANIMATED STACK CARD ============ -->
-<img src="https://raw.githubusercontent.com/khanhishan70-stack/khanhishan70-stack/main/stack.svg?v=2" width="100%" alt="Tech stack" />
+<img src="https://raw.githubusercontent.com/khanhishan70-stack/khanhishan70-stack/main/stack.svg?v=3" width="100%" alt="Tech stack" />
 
 <!-- ============ ANIMATED ID DASHBOARD CARD ============ -->
-<img src="https://raw.githubusercontent.com/khanhishan70-stack/khanhishan70-stack/main/id-dashboard.svg?v=2" width="100%" alt="Developer dashboard" />
+<img src="https://raw.githubusercontent.com/khanhishan70-stack/khanhishan70-stack/main/id-dashboard.svg?v=3" width="100%" alt="Developer dashboard" />
 
 </div>
 
@@ -101,6 +101,6 @@
 <div align="center">
 
 <!-- ============ ANIMATED CONNECT CARD ============ -->
-<img src="https://raw.githubusercontent.com/khanhishan70-stack/khanhishan70-stack/main/connect.svg?v=2" width="100%" alt="Connect" />
+<img src="https://raw.githubusercontent.com/khanhishan70-stack/khanhishan70-stack/main/connect.svg?v=3" width="100%" alt="Connect" />
 
 </div>
